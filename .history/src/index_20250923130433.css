@@ -1,0 +1,96 @@
+html {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#root {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  gap: 1em;
+  min-height: inherit;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+div {
+  display: block;
+  unicode-bidi: isolate;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 auto;
+  min-height: 100%;
+}
+
+#root {
+  width: 100%;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  gap: 20px;
+  display: grid;
+  grid-template-columns: 200px auto;
+}
+
+.header-content {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+}
+
+.footer-content {
+  align-self: flex-end;
+  padding: 1em;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+}
+
+.books {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 0 2em;
+}
+
+dialog::backdrop {
+  background: rgb(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
+}
+
+#btn-primary {
+  background: rgb(15, 52, 79);
+  color: white;
+  border-radius: 4px;
+  padding: 6px 18px;
+}
+
+.btn-remove {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  background: rgb(255, 111, 0);
+  border-radius: 4px;
+  padding: 8px;
+  font-size: smaller;
+  color: white;
+}

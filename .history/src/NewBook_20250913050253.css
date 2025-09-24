@@ -1,0 +1,11 @@
+.newButton {
+  width: 200px;
+  height: 300px;
+  border: 5px solid gray;
+  border-radius: 8px;
+}
+
+button {
+  text-align: center;
+  color: gray;
+}

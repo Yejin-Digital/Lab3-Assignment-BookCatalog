@@ -1,0 +1,13 @@
+html {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.bookCard {
+  flex-direction: column;
+  border: 1px black;
+}
+
+.bookAuthor {
+  font-size: 20px;
+  font-weight: bold;
+}

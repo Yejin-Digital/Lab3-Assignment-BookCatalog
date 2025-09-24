@@ -1,0 +1,45 @@
+html {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#root {
+  flex: 1;
+}
+
+.footer-content {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: auto;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+}
+
+.footer-content {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+}
+
+h1 .app-header {
+  background-color: black;
+  color: white;
+  text-align: center;
+  width: 100%;
+  border-bottom: 1px solid yellowgreen;
+}

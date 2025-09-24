@@ -1,0 +1,25 @@
+html {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer-content {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+}
+
+h1 {
+  background-color: black;
+  color: white;
+  text-align: center;
+  width: 100%;
+  margin: 0;
+}

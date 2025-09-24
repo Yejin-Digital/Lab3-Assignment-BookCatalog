@@ -1,0 +1,20 @@
+import './BookListCard.css';
+
+function BookListCard(props) {
+  return (
+    <div className="bookCard">
+      <button className="btn-remove">Remove</button>
+      <div className="bookImage">
+        <img src={props.image} alt="Book cover" />
+      </div>
+      <div className="bookInfo">
+        <div className="bookAuthorContainer">
+          <p className="bookPrice">{props.price}</p>
+        </div>
+        <a href={props.url}>Learn more</a>
+      </div>
+    </div>
+  );
+}
+
+export default BookListCard;

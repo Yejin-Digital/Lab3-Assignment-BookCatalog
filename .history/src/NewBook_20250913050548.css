@@ -1,0 +1,27 @@
+.newButton {
+  width: 200px;
+  height: 300px;
+  border: 1px solid #e9ecef;
+  border-radius: 4px;
+  background-color: #f8f9fa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.newButton:hover {
+  background-color: #e9ecef;
+}
+
+button {
+  background: none;
+  border: none;
+  color: #766d6d;
+  font-size: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 0;
+}

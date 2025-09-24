@@ -1,0 +1,43 @@
+.bookCard {
+  flex-direction: column;
+  border: solid 1px black;
+  width: 200px;
+  height: 300px;
+  display: flex;
+  justify-content: flex-start;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  position: relative;
+}
+
+.bookImage {
+  padding: 6.4px;
+}
+.bookCard img {
+  width: 100%;
+  height: auto;
+  max-height: 200px;
+  object-fit: cover;
+  margin-bottom: 8px;
+}
+
+.bookAuthor {
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  background-color: rgb(14, 118, 192);
+  text-align: center;
+  margin: 0;
+}
+
+a {
+  width: 100%;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(15, 52, 79);
+  text-align: center;
+  margin: 0;
+  padding: 4px 0 0;
+}

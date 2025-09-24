@@ -1,0 +1,37 @@
+html {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.bookCard {
+  flex-direction: column;
+  border: solid 1px black;
+  width: 200px;
+  height: 300px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.bookCard img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin: 6.4px;
+}
+
+.bookAuthor {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(14, 118, 192);
+  text-align: center;
+  margin: 0;
+}
+
+.learnMore {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(15, 52, 79);
+  text-align: center;
+  padding: 4px 0 0;
+}
